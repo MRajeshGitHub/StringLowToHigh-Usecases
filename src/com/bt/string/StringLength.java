@@ -15,8 +15,8 @@ public class StringLength {
 		int count=0,i=0;
 		//count value of length using while loop
 		while(ch[i]!='\0') {
-			count++;
-			i++;
+			count++;//to increment the count value
+			i++;//check each char
 		}
 System.out.println(count);
 	}
