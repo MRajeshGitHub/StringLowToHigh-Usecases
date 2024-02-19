@@ -8,6 +8,10 @@ public class StringCase_1 {
 		
 		//taking variable as string,In java String is Object and to manipulate we have inbuilt methods..
 		String s="String";
+		/*
+		 * char []a=s.toCharArray(); for(int i=0;i<s.length();i++) {
+		 * System.out.println(a[i]); }
+		 */
 		//get 3rd index of String
 		System.out.println("Thired char in String is :"+s.charAt(3));
 		System.out.println("Fifth char in String is :"+s.charAt(5));
