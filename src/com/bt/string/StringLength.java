@@ -9,7 +9,7 @@ public class StringLength {
 		String s="Rajesh Kumar";
 		//add null to given string to count manually
 		s=s.concat("\0");
-		//hod the value in to char array
+		//hold the value in to char array
 		char[]ch=s.toCharArray();
 		
 		int count=0,i=0;
